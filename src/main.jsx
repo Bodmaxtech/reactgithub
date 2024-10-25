@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
@@ -11,4 +12,15 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <App />
     </Provider>
   </React.StrictMode>,
+=======
+import { StrictMode } from 'react'
+import { createRoot } from 'react-dom/client'
+import App from './App.jsx'
+import './index.css'
+
+createRoot(document.getElementById('root')).render(
+  <StrictMode>
+    <App />
+  </StrictMode>,
+>>>>>>> a9fe32c555d84d826a5601f02152584b315485ca
 )
